@@ -15,7 +15,7 @@ Our shell should:
   in the quoted sequence. \
 • Handle " (double quote) which should prevent the shell from interpreting the metacharacters
   in the quoted sequence except for $ (dollar sign). \
-  • Implement redirections:
+  • Implement redirections: \
     ++ < should redirect input. \
     ++ > should redirect output. \
     ++ << should be given a delimiter, then read the input until a line containing the
@@ -39,4 +39,4 @@ foreground pipeline.\
    ++ export with no options\
    ++ unset with no options\
    ++ env with no options or arguments\
-   ++ exit with no options\
+   ++ exit with no options

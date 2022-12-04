@@ -4,7 +4,7 @@ REQUIREMENTS:
 
 Our shell should:
 
-• Display a prompt when waiting for a new command.
+• Display a prompt when waiting for a new command. \
 • Have a working history.
 • Search and launch the right executable (based on the PATH variable or using a
   relative or an absolute path).

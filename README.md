@@ -4,7 +4,7 @@
 This project is about creating a simple shell, similar to bash. 
 
 # Basic Features:
-**Our shell**:
+**Our shell**:<br>
 • displays a prompt when waiting for a new command. \
 • has a working history. \
 • searches and launches the right executable (based on the PATH variable or using a
@@ -21,7 +21,7 @@ This project is about creating a simple shell, similar to bash.
     ++ >> redirects output in append mode. \
 • pipes are implemented (||). The output of each command in the pipeline is
 connected to the input of the next command via a pipe. \
-• Handles environment variables ($ followed by a sequence of characters) which expands to their values.\
+• handles environment variables ($ followed by a sequence of characters) which expands to their values.\
 • handles $? which expands to the exit status of the most recently executed
 foreground pipeline.\
 • handles ctrl-C, ctrl-D and ctrl-\ which behaves like in bash.

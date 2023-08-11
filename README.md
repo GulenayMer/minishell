@@ -14,11 +14,11 @@ This project is about creating a simple shell, similar to bash.
 • handles double quotes which prevents the shell from interpreting the metacharacters
   in the quoted sequence except for $ (dollar sign). \
   • works with redirections: \
-    ++ < redirects input. \
-    ++ > redirects output. \
-    ++ << is given a delimiter, then reads the input until a line containing the
+    - < redirects input. \
+    - > redirects output. \
+    - << is given a delimiter, then reads the input until a line containing the
       delimiter is seen. \
-    ++ >> redirects output in append mode. \
+    - >> redirects output in append mode. \
 • pipes are implemented (||). The output of each command in the pipeline is
 connected to the input of the next command via a pipe. \
 • handles environment variables ($ followed by a sequence of characters) which expands to their values.\

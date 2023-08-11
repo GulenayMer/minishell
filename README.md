@@ -14,11 +14,11 @@ This project is about creating a simple shell, similar to bash.
 • handles double quotes which prevents the shell from interpreting the metacharacters
   in the quoted sequence except for $ (dollar sign). \
   • works with redirections: \
-    - < redirects input. \
-    - > redirects output. \
-    - << is given a delimiter, then reads the input until a line containing the
+    1. < redirects input. \
+    2. > redirects output. \
+    3. << is given a delimiter, then reads the input until a line containing the
       delimiter is seen. \
-    - >> redirects output in append mode. \
+    4. >> redirects output in append mode. \
 • pipes are implemented (||). The output of each command in the pipeline is
 connected to the input of the next command via a pipe. \
 • handles environment variables ($ followed by a sequence of characters) which expands to their values.\
@@ -26,17 +26,17 @@ connected to the input of the next command via a pipe. \
 foreground pipeline.\
 • handles ctrl-C, ctrl-D and ctrl-\ which behaves like in bash.
   In interactive mode:\
-   ++ ctrl-C displays a new prompt on a new line. \
-   ++ ctrl-D exits the shell.\
-   ++ ctrl-\ does nothing.\
+   1. ctrl-C displays a new prompt on a new line. \
+   2. ctrl-D exits the shell.\
+   3. ctrl-\ does nothing.\
  • the following builtins are also implemented:\
-   ++ echo with option -n\
-   ++ cd with only a relative or absolute path\
-   ++ pwd with no options\
-   ++ export with no options\
-   ++ unset with no options\
-   ++ env with no options or arguments\
-   ++ exit with no options
+   1. echo with option -n\
+   2. cd with only a relative or absolute path\
+   3. pwd with no options\
+   4. export with no options\
+   5. unset with no options\
+   6. env with no options or arguments\
+   7. exit with no options
 
 # Usage
 To compile the program, the provided Makefile can be used. There we defined some rules and they can be run by these basic commands:<br>

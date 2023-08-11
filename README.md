@@ -1,7 +1,7 @@
 # Project Name: Minishell
 
 # Summary
-This project is about creating a simple shell, similar to bash. While working on this project, we gained knowledge about processes and file descriptors.
+This project is about creating a simple shell, similar to bash. 
 
 # Basic Features:
 **Our shell**:

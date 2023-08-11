@@ -29,7 +29,7 @@ foreground pipeline.\
    1. ctrl-C displays a new prompt on a new line. \
    2. ctrl-D exits the shell.\
    3. ctrl-\ does nothing.\
- • the following builtins are also implemented:\
+• the following builtins are also implemented:\
    1. echo with option -n\
    2. cd with only a relative or absolute path\
    3. pwd with no options\

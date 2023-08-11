@@ -25,18 +25,16 @@ connected to the input of the next command via a pipe. \
 • handles $? which expands to the exit status of the most recently executed
 foreground pipeline.\
 • handles ctrl-C, ctrl-D and ctrl-\ which behaves like in bash.
-  In interactive mode: \
-   1. ctrl-C displays a new prompt on a new line. \
-   2. ctrl-D exits the shell. \
-   3. ctrl-\ does nothing. \
-
-• the following builtins are also implemented: \
-   1. echo with option -n\
-   2. cd with only a relative or absolute path \
-   3. pwd with no options \
-   4. export with no options \
-   5. unset with no options \
-   6. env with no options or arguments \
+   1. ctrl-C displays a new prompt on a new line. 
+   2. ctrl-D exits the shell. 
+   3. ctrl-\ does nothing. <br>
+• the following builtins are also implemented: <br>
+   1. echo with option -n 
+   2. cd with only a relative or absolute path 
+   3. pwd with no options 
+   4. export with no options 
+   5. unset with no options 
+   6. env with no options or arguments 
    7. exit with no options
 
 # Usage
